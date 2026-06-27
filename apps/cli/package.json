@@ -7,9 +7,7 @@
   },
   "scripts": {
     "build": "tsc",
-    "dev": "tsc -w",
-    "lint": "eslint .",
-    "typecheck": "tsc --noEmit"
+    "dev": "tsc -w"
   },
   "dependencies": {
     "@derivo/cli-core": "workspace:*",

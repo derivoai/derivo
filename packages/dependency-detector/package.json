@@ -5,12 +5,9 @@
   "main": "dist/index.js",
   "scripts": {
     "build": "tsc",
-    "dev": "tsc -w",
-    "lint": "eslint .",
-    "typecheck": "tsc --noEmit"
+    "dev": "tsc -w"
   },
   "dependencies": {
     "@derivo/package-manager": "workspace:*"
-  },
-  "types": "dist/index.d.ts"
+  }
 }

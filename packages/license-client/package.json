@@ -5,14 +5,11 @@
   "main": "dist/index.js",
   "scripts": {
     "build": "tsc",
-    "dev": "tsc -w",
-    "lint": "eslint .",
-    "typecheck": "tsc --noEmit"
+    "dev": "tsc -w"
   },
   "dependencies": {
     "@derivo/cloud-client": "workspace:*",
     "@derivo/secure-storage": "workspace:*",
     "jose": "^5.2.0"
-  },
-  "types": "dist/index.d.ts"
+  }
 }

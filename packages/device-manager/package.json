@@ -5,10 +5,7 @@
   "main": "dist/index.js",
   "scripts": {
     "build": "tsc",
-    "dev": "tsc -w",
-    "lint": "eslint .",
-    "typecheck": "tsc --noEmit"
+    "dev": "tsc -w"
   },
-  "dependencies": {},
-  "types": "dist/index.d.ts"
+  "dependencies": {}
 }

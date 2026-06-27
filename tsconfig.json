@@ -1,11 +1,26 @@
 {
-  "extends": "@derivo/typescript-config/base.json",
   "compilerOptions": {
-    "baseUrl": ".",
+    "target": "ES2022",
+    "experimentalDecorators": true,
+    "useDefineForClassFields": false,
+    "module": "ESNext",
+    "lib": [
+      "ES2022",
+      "DOM",
+      "DOM.Iterable"
+    ],
+    "skipLibCheck": true,
+    "moduleResolution": "bundler",
+    "isolatedModules": true,
+    "moduleDetection": "force",
+    "allowJs": true,
+    "jsx": "react-jsx",
     "paths": {
-      "@derivo/*": ["packages/*/src"]
-    }
-  },
-  "include": [],
-  "exclude": ["node_modules", "dist"]
+      "@/*": [
+        "./*"
+      ]
+    },
+    "allowImportingTsExtensions": true,
+    "noEmit": true
+  }
 }
