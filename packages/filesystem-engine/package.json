@@ -1,0 +1,13 @@
+{
+  "name": "@derivo/filesystem-engine",
+  "version": "0.1.0",
+  "description": "Safe file system operations, file modifications, and caching",
+  "main": "dist/index.js",
+  "scripts": {
+    "build": "tsc",
+    "dev": "tsc -w",
+    "lint": "eslint .",
+    "typecheck": "tsc --noEmit"
+  },
+  "types": "dist/index.d.ts"
+}

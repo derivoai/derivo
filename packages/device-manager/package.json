@@ -1,0 +1,14 @@
+{
+  "name": "@derivo/device-manager",
+  "version": "0.1.0",
+  "description": "Device registration and fingerprinting for Derivo CLI",
+  "main": "dist/index.js",
+  "scripts": {
+    "build": "tsc",
+    "dev": "tsc -w",
+    "lint": "eslint .",
+    "typecheck": "tsc --noEmit"
+  },
+  "dependencies": {},
+  "types": "dist/index.d.ts"
+}

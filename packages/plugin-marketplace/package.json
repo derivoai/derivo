@@ -1,0 +1,13 @@
+{
+  "name": "@derivo/plugin-marketplace",
+  "version": "0.1.0",
+  "description": "Client for interacting with the remote plugin marketplace registry",
+  "main": "dist/index.js",
+  "scripts": {
+    "build": "tsc",
+    "dev": "tsc -w",
+    "lint": "eslint .",
+    "typecheck": "tsc --noEmit"
+  },
+  "types": "dist/index.d.ts"
+}

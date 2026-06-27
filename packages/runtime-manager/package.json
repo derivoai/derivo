@@ -1,0 +1,13 @@
+{
+  "name": "@derivo/runtime-manager",
+  "version": "0.1.0",
+  "description": "Manages host runtimes (Node, Python, Go) and virtualization (Docker)",
+  "main": "dist/index.js",
+  "scripts": {
+    "build": "tsc",
+    "dev": "tsc -w",
+    "lint": "eslint .",
+    "typecheck": "tsc --noEmit"
+  },
+  "types": "dist/index.d.ts"
+}

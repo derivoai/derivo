@@ -1,0 +1,13 @@
+{
+  "name": "@derivo/issue-detector",
+  "version": "0.1.0",
+  "description": "Analyzes diagnostic results to pinpoint specific issues",
+  "main": "dist/index.js",
+  "scripts": {
+    "build": "tsc",
+    "dev": "tsc -w",
+    "lint": "eslint .",
+    "typecheck": "tsc --noEmit"
+  },
+  "types": "dist/index.d.ts"
+}

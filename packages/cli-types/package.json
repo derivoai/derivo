@@ -1,0 +1,13 @@
+{
+  "name": "@derivo/cli-types",
+  "version": "0.1.0",
+  "description": "Shared TypeScript interfaces for Derivo CLI",
+  "main": "dist/index.js",
+  "scripts": {
+    "build": "tsc",
+    "dev": "tsc -w",
+    "lint": "eslint .",
+    "typecheck": "tsc --noEmit"
+  },
+  "types": "dist/index.d.ts"
+}

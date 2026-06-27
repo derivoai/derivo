@@ -1,0 +1,14 @@
+{
+  "name": "@derivo/project-detector",
+  "version": "0.1.0",
+  "description": "Scans repository to identify configuration files and manifest data",
+  "main": "dist/index.js",
+  "scripts": {
+    "build": "tsc",
+    "dev": "tsc -w"
+  },
+  "dependencies": {
+    "@derivo/filesystem-engine": "workspace:*",
+    "@derivo/stack-analyzer": "workspace:*"
+  }
+}

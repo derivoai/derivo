@@ -1,0 +1,13 @@
+{
+  "name": "@derivo/validator-engine",
+  "version": "0.1.0",
+  "description": "Validates project integrity, environments, and configurations",
+  "main": "dist/index.js",
+  "scripts": {
+    "build": "tsc",
+    "dev": "tsc -w",
+    "lint": "eslint .",
+    "typecheck": "tsc --noEmit"
+  },
+  "types": "dist/index.d.ts"
+}

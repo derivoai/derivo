@@ -1,0 +1,13 @@
+{
+  "name": "@derivo/environment-health",
+  "version": "0.1.0",
+  "description": "Checks PATH, environment variables, and binary health",
+  "main": "dist/index.js",
+  "scripts": {
+    "build": "tsc",
+    "dev": "tsc -w",
+    "lint": "eslint .",
+    "typecheck": "tsc --noEmit"
+  },
+  "types": "dist/index.d.ts"
+}

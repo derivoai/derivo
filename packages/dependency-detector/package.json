@@ -1,0 +1,16 @@
+{
+  "name": "@derivo/dependency-detector",
+  "version": "0.1.0",
+  "description": "Analyzes project dependencies to find missing or outdated packages",
+  "main": "dist/index.js",
+  "scripts": {
+    "build": "tsc",
+    "dev": "tsc -w",
+    "lint": "eslint .",
+    "typecheck": "tsc --noEmit"
+  },
+  "dependencies": {
+    "@derivo/package-manager": "workspace:*"
+  },
+  "types": "dist/index.d.ts"
+}

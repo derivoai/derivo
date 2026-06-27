@@ -1,0 +1,13 @@
+{
+  "name": "@derivo/plugin-cli",
+  "version": "0.1.0",
+  "description": "Registers 'derivo plugin *' commands within the core CLI",
+  "main": "dist/index.js",
+  "scripts": {
+    "build": "tsc",
+    "dev": "tsc -w",
+    "lint": "eslint .",
+    "typecheck": "tsc --noEmit"
+  },
+  "types": "dist/index.d.ts"
+}

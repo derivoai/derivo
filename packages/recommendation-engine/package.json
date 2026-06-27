@@ -1,0 +1,13 @@
+{
+  "name": "@derivo/recommendation-engine",
+  "version": "0.1.0",
+  "description": "Generates plain-English explanations and manual fix steps",
+  "main": "dist/index.js",
+  "scripts": {
+    "build": "tsc",
+    "dev": "tsc -w",
+    "lint": "eslint .",
+    "typecheck": "tsc --noEmit"
+  },
+  "types": "dist/index.d.ts"
+}

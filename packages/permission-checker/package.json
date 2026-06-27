@@ -1,0 +1,13 @@
+{
+  "name": "@derivo/permission-checker",
+  "version": "0.1.0",
+  "description": "Validates read/write/execute permissions for directories",
+  "main": "dist/index.js",
+  "scripts": {
+    "build": "tsc",
+    "dev": "tsc -w",
+    "lint": "eslint .",
+    "typecheck": "tsc --noEmit"
+  },
+  "types": "dist/index.d.ts"
+}
