@@ -1,5 +1,4 @@
 import { motion } from 'motion/react';
-import { ArrowRight } from 'lucide-react';
 
 const problems = [
   {

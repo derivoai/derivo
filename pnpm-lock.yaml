@@ -56,6 +56,13 @@ importers:
       commander:
         specifier: ^11.0.0
         version: 11.1.0
+    devDependencies:
+      '@derivo/eslint-config':
+        specifier: workspace:*
+        version: link:../../tooling/eslint-config
+      '@derivo/typescript-config':
+        specifier: workspace:*
+        version: link:../../tooling/typescript-config
 
   apps/web:
     dependencies:
@@ -99,12 +106,24 @@ importers:
         specifier: ^6.2.3
         version: 6.4.3(@types/node@22.20.0)(jiti@2.7.0)(lightningcss@1.32.0)(tsx@4.22.4)(yaml@2.9.0)
     devDependencies:
+      '@derivo/eslint-config':
+        specifier: workspace:*
+        version: link:../../tooling/eslint-config
+      '@derivo/typescript-config':
+        specifier: workspace:*
+        version: link:../../tooling/typescript-config
       '@types/express':
         specifier: ^4.17.21
         version: 4.17.25
       '@types/node':
         specifier: ^22.14.0
         version: 22.20.0
+      '@types/react':
+        specifier: ^19.0.8
+        version: 19.2.17
+      '@types/react-dom':
+        specifier: ^19.0.3
+        version: 19.2.3(@types/react@19.2.17)
       autoprefixer:
         specifier: ^10.4.21
         version: 10.5.2(postcss@8.5.15)
@@ -132,6 +151,19 @@ importers:
       '@derivo/session-manager':
         specifier: workspace:*
         version: link:../session-manager
+    devDependencies:
+      '@derivo/eslint-config':
+        specifier: workspace:*
+        version: link:../../tooling/eslint-config
+      '@derivo/typescript-config':
+        specifier: workspace:*
+        version: link:../../tooling/typescript-config
+      eslint:
+        specifier: ^9.5.0
+        version: 9.39.4(jiti@2.7.0)
+      typescript:
+        specifier: ^5.4.5
+        version: 5.8.3
 
   packages/cli-config:
     dependencies:
@@ -141,12 +173,38 @@ importers:
       env-paths:
         specifier: ^3.0.0
         version: 3.0.0
+    devDependencies:
+      '@derivo/eslint-config':
+        specifier: workspace:*
+        version: link:../../tooling/eslint-config
+      '@derivo/typescript-config':
+        specifier: workspace:*
+        version: link:../../tooling/typescript-config
+      eslint:
+        specifier: ^9.5.0
+        version: 9.39.4(jiti@2.7.0)
+      typescript:
+        specifier: ^5.4.5
+        version: 5.8.3
 
   packages/cli-core:
     dependencies:
       commander:
         specifier: ^11.0.0
         version: 11.1.0
+    devDependencies:
+      '@derivo/eslint-config':
+        specifier: workspace:*
+        version: link:../../tooling/eslint-config
+      '@derivo/typescript-config':
+        specifier: workspace:*
+        version: link:../../tooling/typescript-config
+      eslint:
+        specifier: ^9.5.0
+        version: 9.39.4(jiti@2.7.0)
+      typescript:
+        specifier: ^5.4.5
+        version: 5.8.3
 
   packages/cli-logger:
     dependencies:
@@ -156,56 +214,316 @@ importers:
       pino:
         specifier: ^8.15.0
         version: 8.21.0
+    devDependencies:
+      '@derivo/eslint-config':
+        specifier: workspace:*
+        version: link:../../tooling/eslint-config
+      '@derivo/typescript-config':
+        specifier: workspace:*
+        version: link:../../tooling/typescript-config
+      eslint:
+        specifier: ^9.5.0
+        version: 9.39.4(jiti@2.7.0)
+      typescript:
+        specifier: ^5.4.5
+        version: 5.8.3
 
-  packages/cli-types: {}
+  packages/cli-types:
+    devDependencies:
+      '@derivo/eslint-config':
+        specifier: workspace:*
+        version: link:../../tooling/eslint-config
+      '@derivo/typescript-config':
+        specifier: workspace:*
+        version: link:../../tooling/typescript-config
+      eslint:
+        specifier: ^9.5.0
+        version: 9.39.4(jiti@2.7.0)
+      typescript:
+        specifier: ^5.4.5
+        version: 5.8.3
 
-  packages/cli-utils: {}
+  packages/cli-utils:
+    devDependencies:
+      '@derivo/eslint-config':
+        specifier: workspace:*
+        version: link:../../tooling/eslint-config
+      '@derivo/typescript-config':
+        specifier: workspace:*
+        version: link:../../tooling/typescript-config
+      eslint:
+        specifier: ^9.5.0
+        version: 9.39.4(jiti@2.7.0)
+      typescript:
+        specifier: ^5.4.5
+        version: 5.8.3
 
   packages/cloud-client:
     dependencies:
       ofetch:
         specifier: ^1.3.3
         version: 1.5.1
+    devDependencies:
+      '@derivo/eslint-config':
+        specifier: workspace:*
+        version: link:../../tooling/eslint-config
+      '@derivo/typescript-config':
+        specifier: workspace:*
+        version: link:../../tooling/typescript-config
+      eslint:
+        specifier: ^9.5.0
+        version: 9.39.4(jiti@2.7.0)
+      typescript:
+        specifier: ^5.4.5
+        version: 5.8.3
 
-  packages/command-executor: {}
+  packages/command-executor:
+    devDependencies:
+      '@derivo/eslint-config':
+        specifier: workspace:*
+        version: link:../../tooling/eslint-config
+      '@derivo/typescript-config':
+        specifier: workspace:*
+        version: link:../../tooling/typescript-config
+      eslint:
+        specifier: ^9.5.0
+        version: 9.39.4(jiti@2.7.0)
+      typescript:
+        specifier: ^5.4.5
+        version: 5.8.3
 
   packages/command-runner:
     dependencies:
       execa:
         specifier: ^8.0.1
         version: 8.0.1
+    devDependencies:
+      '@derivo/eslint-config':
+        specifier: workspace:*
+        version: link:../../tooling/eslint-config
+      '@derivo/typescript-config':
+        specifier: workspace:*
+        version: link:../../tooling/typescript-config
+      eslint:
+        specifier: ^9.5.0
+        version: 9.39.4(jiti@2.7.0)
+      typescript:
+        specifier: ^5.4.5
+        version: 5.8.3
 
-  packages/config-generator: {}
+  packages/config-generator:
+    devDependencies:
+      '@derivo/eslint-config':
+        specifier: workspace:*
+        version: link:../../tooling/eslint-config
+      '@derivo/typescript-config':
+        specifier: workspace:*
+        version: link:../../tooling/typescript-config
+      eslint:
+        specifier: ^9.5.0
+        version: 9.39.4(jiti@2.7.0)
+      typescript:
+        specifier: ^5.4.5
+        version: 5.8.3
 
-  packages/container-health: {}
+  packages/container-health:
+    devDependencies:
+      '@derivo/eslint-config':
+        specifier: workspace:*
+        version: link:../../tooling/eslint-config
+      '@derivo/typescript-config':
+        specifier: workspace:*
+        version: link:../../tooling/typescript-config
+      eslint:
+        specifier: ^9.5.0
+        version: 9.39.4(jiti@2.7.0)
+      typescript:
+        specifier: ^5.4.5
+        version: 5.8.3
 
   packages/dependency-detector:
     dependencies:
       '@derivo/package-manager':
         specifier: workspace:*
         version: link:../package-manager
+    devDependencies:
+      '@derivo/eslint-config':
+        specifier: workspace:*
+        version: link:../../tooling/eslint-config
+      '@derivo/typescript-config':
+        specifier: workspace:*
+        version: link:../../tooling/typescript-config
+      eslint:
+        specifier: ^9.5.0
+        version: 9.39.4(jiti@2.7.0)
+      typescript:
+        specifier: ^5.4.5
+        version: 5.8.3
 
-  packages/dependency-health: {}
+  packages/dependency-health:
+    devDependencies:
+      '@derivo/eslint-config':
+        specifier: workspace:*
+        version: link:../../tooling/eslint-config
+      '@derivo/typescript-config':
+        specifier: workspace:*
+        version: link:../../tooling/typescript-config
+      eslint:
+        specifier: ^9.5.0
+        version: 9.39.4(jiti@2.7.0)
+      typescript:
+        specifier: ^5.4.5
+        version: 5.8.3
 
-  packages/device-manager: {}
+  packages/device-manager:
+    devDependencies:
+      '@derivo/eslint-config':
+        specifier: workspace:*
+        version: link:../../tooling/eslint-config
+      '@derivo/typescript-config':
+        specifier: workspace:*
+        version: link:../../tooling/typescript-config
+      eslint:
+        specifier: ^9.5.0
+        version: 9.39.4(jiti@2.7.0)
+      typescript:
+        specifier: ^5.4.5
+        version: 5.8.3
 
-  packages/diagnostics-engine: {}
+  packages/diagnostics-engine:
+    devDependencies:
+      '@derivo/eslint-config':
+        specifier: workspace:*
+        version: link:../../tooling/eslint-config
+      '@derivo/typescript-config':
+        specifier: workspace:*
+        version: link:../../tooling/typescript-config
+      eslint:
+        specifier: ^9.5.0
+        version: 9.39.4(jiti@2.7.0)
+      typescript:
+        specifier: ^5.4.5
+        version: 5.8.3
 
-  packages/doctor-engine: {}
+  packages/doctor-engine:
+    devDependencies:
+      '@derivo/eslint-config':
+        specifier: workspace:*
+        version: link:../../tooling/eslint-config
+      '@derivo/typescript-config':
+        specifier: workspace:*
+        version: link:../../tooling/typescript-config
+      eslint:
+        specifier: ^9.5.0
+        version: 9.39.4(jiti@2.7.0)
+      typescript:
+        specifier: ^5.4.5
+        version: 5.8.3
 
-  packages/doctor-types: {}
+  packages/doctor-types:
+    devDependencies:
+      '@derivo/eslint-config':
+        specifier: workspace:*
+        version: link:../../tooling/eslint-config
+      '@derivo/typescript-config':
+        specifier: workspace:*
+        version: link:../../tooling/typescript-config
+      eslint:
+        specifier: ^9.5.0
+        version: 9.39.4(jiti@2.7.0)
+      typescript:
+        specifier: ^5.4.5
+        version: 5.8.3
 
-  packages/doctor-utils: {}
+  packages/doctor-utils:
+    devDependencies:
+      '@derivo/eslint-config':
+        specifier: workspace:*
+        version: link:../../tooling/eslint-config
+      '@derivo/typescript-config':
+        specifier: workspace:*
+        version: link:../../tooling/typescript-config
+      eslint:
+        specifier: ^9.5.0
+        version: 9.39.4(jiti@2.7.0)
+      typescript:
+        specifier: ^5.4.5
+        version: 5.8.3
 
-  packages/environment-detector: {}
+  packages/environment-detector:
+    devDependencies:
+      '@derivo/eslint-config':
+        specifier: workspace:*
+        version: link:../../tooling/eslint-config
+      '@derivo/typescript-config':
+        specifier: workspace:*
+        version: link:../../tooling/typescript-config
+      eslint:
+        specifier: ^9.5.0
+        version: 9.39.4(jiti@2.7.0)
+      typescript:
+        specifier: ^5.4.5
+        version: 5.8.3
 
-  packages/environment-health: {}
+  packages/environment-health:
+    devDependencies:
+      '@derivo/eslint-config':
+        specifier: workspace:*
+        version: link:../../tooling/eslint-config
+      '@derivo/typescript-config':
+        specifier: workspace:*
+        version: link:../../tooling/typescript-config
+      eslint:
+        specifier: ^9.5.0
+        version: 9.39.4(jiti@2.7.0)
+      typescript:
+        specifier: ^5.4.5
+        version: 5.8.3
 
-  packages/filesystem-engine: {}
+  packages/filesystem-engine:
+    devDependencies:
+      '@derivo/eslint-config':
+        specifier: workspace:*
+        version: link:../../tooling/eslint-config
+      '@derivo/typescript-config':
+        specifier: workspace:*
+        version: link:../../tooling/typescript-config
+      eslint:
+        specifier: ^9.5.0
+        version: 9.39.4(jiti@2.7.0)
+      typescript:
+        specifier: ^5.4.5
+        version: 5.8.3
 
-  packages/fix-engine: {}
+  packages/fix-engine:
+    devDependencies:
+      '@derivo/eslint-config':
+        specifier: workspace:*
+        version: link:../../tooling/eslint-config
+      '@derivo/typescript-config':
+        specifier: workspace:*
+        version: link:../../tooling/typescript-config
+      eslint:
+        specifier: ^9.5.0
+        version: 9.39.4(jiti@2.7.0)
+      typescript:
+        specifier: ^5.4.5
+        version: 5.8.3
 
-  packages/health-engine: {}
+  packages/health-engine:
+    devDependencies:
+      '@derivo/eslint-config':
+        specifier: workspace:*
+        version: link:../../tooling/eslint-config
+      '@derivo/typescript-config':
+        specifier: workspace:*
+        version: link:../../tooling/typescript-config
+      eslint:
+        specifier: ^9.5.0
+        version: 9.39.4(jiti@2.7.0)
+      typescript:
+        specifier: ^5.4.5
+        version: 5.8.3
 
   packages/installer-engine:
     dependencies:
@@ -215,10 +533,49 @@ importers:
       '@derivo/runtime-manager':
         specifier: workspace:*
         version: link:../runtime-manager
+    devDependencies:
+      '@derivo/eslint-config':
+        specifier: workspace:*
+        version: link:../../tooling/eslint-config
+      '@derivo/typescript-config':
+        specifier: workspace:*
+        version: link:../../tooling/typescript-config
+      eslint:
+        specifier: ^9.5.0
+        version: 9.39.4(jiti@2.7.0)
+      typescript:
+        specifier: ^5.4.5
+        version: 5.8.3
 
-  packages/issue-classifier: {}
+  packages/issue-classifier:
+    devDependencies:
+      '@derivo/eslint-config':
+        specifier: workspace:*
+        version: link:../../tooling/eslint-config
+      '@derivo/typescript-config':
+        specifier: workspace:*
+        version: link:../../tooling/typescript-config
+      eslint:
+        specifier: ^9.5.0
+        version: 9.39.4(jiti@2.7.0)
+      typescript:
+        specifier: ^5.4.5
+        version: 5.8.3
 
-  packages/issue-detector: {}
+  packages/issue-detector:
+    devDependencies:
+      '@derivo/eslint-config':
+        specifier: workspace:*
+        version: link:../../tooling/eslint-config
+      '@derivo/typescript-config':
+        specifier: workspace:*
+        version: link:../../tooling/typescript-config
+      eslint:
+        specifier: ^9.5.0
+        version: 9.39.4(jiti@2.7.0)
+      typescript:
+        specifier: ^5.4.5
+        version: 5.8.3
 
   packages/license-client:
     dependencies:
@@ -231,54 +588,379 @@ importers:
       jose:
         specifier: ^5.2.0
         version: 5.10.0
+    devDependencies:
+      '@derivo/eslint-config':
+        specifier: workspace:*
+        version: link:../../tooling/eslint-config
+      '@derivo/typescript-config':
+        specifier: workspace:*
+        version: link:../../tooling/typescript-config
+      eslint:
+        specifier: ^9.5.0
+        version: 9.39.4(jiti@2.7.0)
+      typescript:
+        specifier: ^5.4.5
+        version: 5.8.3
 
-  packages/package-manager: {}
+  packages/package-manager:
+    devDependencies:
+      '@derivo/eslint-config':
+        specifier: workspace:*
+        version: link:../../tooling/eslint-config
+      '@derivo/typescript-config':
+        specifier: workspace:*
+        version: link:../../tooling/typescript-config
+      eslint:
+        specifier: ^9.5.0
+        version: 9.39.4(jiti@2.7.0)
+      typescript:
+        specifier: ^5.4.5
+        version: 5.8.3
 
-  packages/permission-checker: {}
+  packages/permission-checker:
+    devDependencies:
+      '@derivo/eslint-config':
+        specifier: workspace:*
+        version: link:../../tooling/eslint-config
+      '@derivo/typescript-config':
+        specifier: workspace:*
+        version: link:../../tooling/typescript-config
+      eslint:
+        specifier: ^9.5.0
+        version: 9.39.4(jiti@2.7.0)
+      typescript:
+        specifier: ^5.4.5
+        version: 5.8.3
 
-  packages/plugin-api: {}
+  packages/plugin-api:
+    devDependencies:
+      '@derivo/eslint-config':
+        specifier: workspace:*
+        version: link:../../tooling/eslint-config
+      '@derivo/typescript-config':
+        specifier: workspace:*
+        version: link:../../tooling/typescript-config
+      eslint:
+        specifier: ^9.5.0
+        version: 9.39.4(jiti@2.7.0)
+      typescript:
+        specifier: ^5.4.5
+        version: 5.8.3
 
-  packages/plugin-cache: {}
+  packages/plugin-cache:
+    devDependencies:
+      '@derivo/eslint-config':
+        specifier: workspace:*
+        version: link:../../tooling/eslint-config
+      '@derivo/typescript-config':
+        specifier: workspace:*
+        version: link:../../tooling/typescript-config
+      eslint:
+        specifier: ^9.5.0
+        version: 9.39.4(jiti@2.7.0)
+      typescript:
+        specifier: ^5.4.5
+        version: 5.8.3
 
-  packages/plugin-cli: {}
+  packages/plugin-cli:
+    devDependencies:
+      '@derivo/eslint-config':
+        specifier: workspace:*
+        version: link:../../tooling/eslint-config
+      '@derivo/typescript-config':
+        specifier: workspace:*
+        version: link:../../tooling/typescript-config
+      eslint:
+        specifier: ^9.5.0
+        version: 9.39.4(jiti@2.7.0)
+      typescript:
+        specifier: ^5.4.5
+        version: 5.8.3
 
-  packages/plugin-context: {}
+  packages/plugin-context:
+    devDependencies:
+      '@derivo/eslint-config':
+        specifier: workspace:*
+        version: link:../../tooling/eslint-config
+      '@derivo/typescript-config':
+        specifier: workspace:*
+        version: link:../../tooling/typescript-config
+      eslint:
+        specifier: ^9.5.0
+        version: 9.39.4(jiti@2.7.0)
+      typescript:
+        specifier: ^5.4.5
+        version: 5.8.3
 
-  packages/plugin-errors: {}
+  packages/plugin-errors:
+    devDependencies:
+      '@derivo/eslint-config':
+        specifier: workspace:*
+        version: link:../../tooling/eslint-config
+      '@derivo/typescript-config':
+        specifier: workspace:*
+        version: link:../../tooling/typescript-config
+      eslint:
+        specifier: ^9.5.0
+        version: 9.39.4(jiti@2.7.0)
+      typescript:
+        specifier: ^5.4.5
+        version: 5.8.3
 
-  packages/plugin-health: {}
+  packages/plugin-health:
+    devDependencies:
+      '@derivo/eslint-config':
+        specifier: workspace:*
+        version: link:../../tooling/eslint-config
+      '@derivo/typescript-config':
+        specifier: workspace:*
+        version: link:../../tooling/typescript-config
+      eslint:
+        specifier: ^9.5.0
+        version: 9.39.4(jiti@2.7.0)
+      typescript:
+        specifier: ^5.4.5
+        version: 5.8.3
 
-  packages/plugin-hooks: {}
+  packages/plugin-hooks:
+    devDependencies:
+      '@derivo/eslint-config':
+        specifier: workspace:*
+        version: link:../../tooling/eslint-config
+      '@derivo/typescript-config':
+        specifier: workspace:*
+        version: link:../../tooling/typescript-config
+      eslint:
+        specifier: ^9.5.0
+        version: 9.39.4(jiti@2.7.0)
+      typescript:
+        specifier: ^5.4.5
+        version: 5.8.3
 
-  packages/plugin-installer: {}
+  packages/plugin-installer:
+    devDependencies:
+      '@derivo/eslint-config':
+        specifier: workspace:*
+        version: link:../../tooling/eslint-config
+      '@derivo/typescript-config':
+        specifier: workspace:*
+        version: link:../../tooling/typescript-config
+      eslint:
+        specifier: ^9.5.0
+        version: 9.39.4(jiti@2.7.0)
+      typescript:
+        specifier: ^5.4.5
+        version: 5.8.3
 
-  packages/plugin-loader: {}
+  packages/plugin-loader:
+    devDependencies:
+      '@derivo/eslint-config':
+        specifier: workspace:*
+        version: link:../../tooling/eslint-config
+      '@derivo/typescript-config':
+        specifier: workspace:*
+        version: link:../../tooling/typescript-config
+      eslint:
+        specifier: ^9.5.0
+        version: 9.39.4(jiti@2.7.0)
+      typescript:
+        specifier: ^5.4.5
+        version: 5.8.3
 
-  packages/plugin-manager: {}
+  packages/plugin-manager:
+    devDependencies:
+      '@derivo/eslint-config':
+        specifier: workspace:*
+        version: link:../../tooling/eslint-config
+      '@derivo/typescript-config':
+        specifier: workspace:*
+        version: link:../../tooling/typescript-config
+      eslint:
+        specifier: ^9.5.0
+        version: 9.39.4(jiti@2.7.0)
+      typescript:
+        specifier: ^5.4.5
+        version: 5.8.3
 
-  packages/plugin-manifest: {}
+  packages/plugin-manifest:
+    devDependencies:
+      '@derivo/eslint-config':
+        specifier: workspace:*
+        version: link:../../tooling/eslint-config
+      '@derivo/typescript-config':
+        specifier: workspace:*
+        version: link:../../tooling/typescript-config
+      eslint:
+        specifier: ^9.5.0
+        version: 9.39.4(jiti@2.7.0)
+      typescript:
+        specifier: ^5.4.5
+        version: 5.8.3
 
-  packages/plugin-marketplace: {}
+  packages/plugin-marketplace:
+    devDependencies:
+      '@derivo/eslint-config':
+        specifier: workspace:*
+        version: link:../../tooling/eslint-config
+      '@derivo/typescript-config':
+        specifier: workspace:*
+        version: link:../../tooling/typescript-config
+      eslint:
+        specifier: ^9.5.0
+        version: 9.39.4(jiti@2.7.0)
+      typescript:
+        specifier: ^5.4.5
+        version: 5.8.3
 
-  packages/plugin-registry: {}
+  packages/plugin-registry:
+    devDependencies:
+      '@derivo/eslint-config':
+        specifier: workspace:*
+        version: link:../../tooling/eslint-config
+      '@derivo/typescript-config':
+        specifier: workspace:*
+        version: link:../../tooling/typescript-config
+      eslint:
+        specifier: ^9.5.0
+        version: 9.39.4(jiti@2.7.0)
+      typescript:
+        specifier: ^5.4.5
+        version: 5.8.3
 
-  packages/plugin-runtime: {}
+  packages/plugin-runtime:
+    devDependencies:
+      '@derivo/eslint-config':
+        specifier: workspace:*
+        version: link:../../tooling/eslint-config
+      '@derivo/typescript-config':
+        specifier: workspace:*
+        version: link:../../tooling/typescript-config
+      eslint:
+        specifier: ^9.5.0
+        version: 9.39.4(jiti@2.7.0)
+      typescript:
+        specifier: ^5.4.5
+        version: 5.8.3
 
-  packages/plugin-sandbox: {}
+  packages/plugin-sandbox:
+    devDependencies:
+      '@derivo/eslint-config':
+        specifier: workspace:*
+        version: link:../../tooling/eslint-config
+      '@derivo/typescript-config':
+        specifier: workspace:*
+        version: link:../../tooling/typescript-config
+      eslint:
+        specifier: ^9.5.0
+        version: 9.39.4(jiti@2.7.0)
+      typescript:
+        specifier: ^5.4.5
+        version: 5.8.3
 
-  packages/plugin-sdk: {}
+  packages/plugin-sdk:
+    devDependencies:
+      '@derivo/eslint-config':
+        specifier: workspace:*
+        version: link:../../tooling/eslint-config
+      '@derivo/typescript-config':
+        specifier: workspace:*
+        version: link:../../tooling/typescript-config
+      eslint:
+        specifier: ^9.5.0
+        version: 9.39.4(jiti@2.7.0)
+      typescript:
+        specifier: ^5.4.5
+        version: 5.8.3
 
-  packages/plugin-security: {}
+  packages/plugin-security:
+    devDependencies:
+      '@derivo/eslint-config':
+        specifier: workspace:*
+        version: link:../../tooling/eslint-config
+      '@derivo/typescript-config':
+        specifier: workspace:*
+        version: link:../../tooling/typescript-config
+      eslint:
+        specifier: ^9.5.0
+        version: 9.39.4(jiti@2.7.0)
+      typescript:
+        specifier: ^5.4.5
+        version: 5.8.3
 
-  packages/plugin-testing: {}
+  packages/plugin-testing:
+    devDependencies:
+      '@derivo/eslint-config':
+        specifier: workspace:*
+        version: link:../../tooling/eslint-config
+      '@derivo/typescript-config':
+        specifier: workspace:*
+        version: link:../../tooling/typescript-config
+      eslint:
+        specifier: ^9.5.0
+        version: 9.39.4(jiti@2.7.0)
+      typescript:
+        specifier: ^5.4.5
+        version: 5.8.3
 
-  packages/plugin-types: {}
+  packages/plugin-types:
+    devDependencies:
+      '@derivo/eslint-config':
+        specifier: workspace:*
+        version: link:../../tooling/eslint-config
+      '@derivo/typescript-config':
+        specifier: workspace:*
+        version: link:../../tooling/typescript-config
+      eslint:
+        specifier: ^9.5.0
+        version: 9.39.4(jiti@2.7.0)
+      typescript:
+        specifier: ^5.4.5
+        version: 5.8.3
 
-  packages/plugin-utils: {}
+  packages/plugin-utils:
+    devDependencies:
+      '@derivo/eslint-config':
+        specifier: workspace:*
+        version: link:../../tooling/eslint-config
+      '@derivo/typescript-config':
+        specifier: workspace:*
+        version: link:../../tooling/typescript-config
+      eslint:
+        specifier: ^9.5.0
+        version: 9.39.4(jiti@2.7.0)
+      typescript:
+        specifier: ^5.4.5
+        version: 5.8.3
 
-  packages/plugin-validator: {}
+  packages/plugin-validator:
+    devDependencies:
+      '@derivo/eslint-config':
+        specifier: workspace:*
+        version: link:../../tooling/eslint-config
+      '@derivo/typescript-config':
+        specifier: workspace:*
+        version: link:../../tooling/typescript-config
+      eslint:
+        specifier: ^9.5.0
+        version: 9.39.4(jiti@2.7.0)
+      typescript:
+        specifier: ^5.4.5
+        version: 5.8.3
 
-  packages/port-scanner: {}
+  packages/port-scanner:
+    devDependencies:
+      '@derivo/eslint-config':
+        specifier: workspace:*
+        version: link:../../tooling/eslint-config
+      '@derivo/typescript-config':
+        specifier: workspace:*
+        version: link:../../tooling/typescript-config
+      eslint:
+        specifier: ^9.5.0
+        version: 9.39.4(jiti@2.7.0)
+      typescript:
+        specifier: ^5.4.5
+        version: 5.8.3
 
   packages/project-detector:
     dependencies:
@@ -288,30 +970,147 @@ importers:
       '@derivo/stack-analyzer':
         specifier: workspace:*
         version: link:../stack-analyzer
+    devDependencies:
+      '@derivo/eslint-config':
+        specifier: workspace:*
+        version: link:../../tooling/eslint-config
+      '@derivo/typescript-config':
+        specifier: workspace:*
+        version: link:../../tooling/typescript-config
+      eslint:
+        specifier: ^9.5.0
+        version: 9.39.4(jiti@2.7.0)
+      typescript:
+        specifier: ^5.4.5
+        version: 5.8.3
 
-  packages/recommendation-engine: {}
+  packages/recommendation-engine:
+    devDependencies:
+      '@derivo/eslint-config':
+        specifier: workspace:*
+        version: link:../../tooling/eslint-config
+      '@derivo/typescript-config':
+        specifier: workspace:*
+        version: link:../../tooling/typescript-config
+      eslint:
+        specifier: ^9.5.0
+        version: 9.39.4(jiti@2.7.0)
+      typescript:
+        specifier: ^5.4.5
+        version: 5.8.3
 
-  packages/repair-engine: {}
+  packages/repair-engine:
+    devDependencies:
+      '@derivo/eslint-config':
+        specifier: workspace:*
+        version: link:../../tooling/eslint-config
+      '@derivo/typescript-config':
+        specifier: workspace:*
+        version: link:../../tooling/typescript-config
+      eslint:
+        specifier: ^9.5.0
+        version: 9.39.4(jiti@2.7.0)
+      typescript:
+        specifier: ^5.4.5
+        version: 5.8.3
 
-  packages/report-engine: {}
+  packages/report-engine:
+    devDependencies:
+      '@derivo/eslint-config':
+        specifier: workspace:*
+        version: link:../../tooling/eslint-config
+      '@derivo/typescript-config':
+        specifier: workspace:*
+        version: link:../../tooling/typescript-config
+      eslint:
+        specifier: ^9.5.0
+        version: 9.39.4(jiti@2.7.0)
+      typescript:
+        specifier: ^5.4.5
+        version: 5.8.3
 
-  packages/report-generator: {}
+  packages/report-generator:
+    devDependencies:
+      '@derivo/eslint-config':
+        specifier: workspace:*
+        version: link:../../tooling/eslint-config
+      '@derivo/typescript-config':
+        specifier: workspace:*
+        version: link:../../tooling/typescript-config
+      eslint:
+        specifier: ^9.5.0
+        version: 9.39.4(jiti@2.7.0)
+      typescript:
+        specifier: ^5.4.5
+        version: 5.8.3
 
-  packages/runtime-health: {}
+  packages/runtime-health:
+    devDependencies:
+      '@derivo/eslint-config':
+        specifier: workspace:*
+        version: link:../../tooling/eslint-config
+      '@derivo/typescript-config':
+        specifier: workspace:*
+        version: link:../../tooling/typescript-config
+      eslint:
+        specifier: ^9.5.0
+        version: 9.39.4(jiti@2.7.0)
+      typescript:
+        specifier: ^5.4.5
+        version: 5.8.3
 
-  packages/runtime-manager: {}
+  packages/runtime-manager:
+    devDependencies:
+      '@derivo/eslint-config':
+        specifier: workspace:*
+        version: link:../../tooling/eslint-config
+      '@derivo/typescript-config':
+        specifier: workspace:*
+        version: link:../../tooling/typescript-config
+      eslint:
+        specifier: ^9.5.0
+        version: 9.39.4(jiti@2.7.0)
+      typescript:
+        specifier: ^5.4.5
+        version: 5.8.3
 
   packages/secure-storage:
     dependencies:
       keytar:
         specifier: ^7.9.0
         version: 7.9.0
+    devDependencies:
+      '@derivo/eslint-config':
+        specifier: workspace:*
+        version: link:../../tooling/eslint-config
+      '@derivo/typescript-config':
+        specifier: workspace:*
+        version: link:../../tooling/typescript-config
+      eslint:
+        specifier: ^9.5.0
+        version: 9.39.4(jiti@2.7.0)
+      typescript:
+        specifier: ^5.4.5
+        version: 5.8.3
 
   packages/session-manager:
     dependencies:
       '@derivo/secure-storage':
         specifier: workspace:*
         version: link:../secure-storage
+    devDependencies:
+      '@derivo/eslint-config':
+        specifier: workspace:*
+        version: link:../../tooling/eslint-config
+      '@derivo/typescript-config':
+        specifier: workspace:*
+        version: link:../../tooling/typescript-config
+      eslint:
+        specifier: ^9.5.0
+        version: 9.39.4(jiti@2.7.0)
+      typescript:
+        specifier: ^5.4.5
+        version: 5.8.3
 
   packages/setup-engine:
     dependencies:
@@ -333,16 +1132,94 @@ importers:
       '@derivo/validator-engine':
         specifier: workspace:*
         version: link:../validator-engine
+    devDependencies:
+      '@derivo/eslint-config':
+        specifier: workspace:*
+        version: link:../../tooling/eslint-config
+      '@derivo/typescript-config':
+        specifier: workspace:*
+        version: link:../../tooling/typescript-config
+      eslint:
+        specifier: ^9.5.0
+        version: 9.39.4(jiti@2.7.0)
+      typescript:
+        specifier: ^5.4.5
+        version: 5.8.3
 
-  packages/snapshot-engine: {}
+  packages/snapshot-engine:
+    devDependencies:
+      '@derivo/eslint-config':
+        specifier: workspace:*
+        version: link:../../tooling/eslint-config
+      '@derivo/typescript-config':
+        specifier: workspace:*
+        version: link:../../tooling/typescript-config
+      eslint:
+        specifier: ^9.5.0
+        version: 9.39.4(jiti@2.7.0)
+      typescript:
+        specifier: ^5.4.5
+        version: 5.8.3
 
-  packages/stack-analyzer: {}
+  packages/stack-analyzer:
+    devDependencies:
+      '@derivo/eslint-config':
+        specifier: workspace:*
+        version: link:../../tooling/eslint-config
+      '@derivo/typescript-config':
+        specifier: workspace:*
+        version: link:../../tooling/typescript-config
+      eslint:
+        specifier: ^9.5.0
+        version: 9.39.4(jiti@2.7.0)
+      typescript:
+        specifier: ^5.4.5
+        version: 5.8.3
 
-  packages/system-scanner: {}
+  packages/system-scanner:
+    devDependencies:
+      '@derivo/eslint-config':
+        specifier: workspace:*
+        version: link:../../tooling/eslint-config
+      '@derivo/typescript-config':
+        specifier: workspace:*
+        version: link:../../tooling/typescript-config
+      eslint:
+        specifier: ^9.5.0
+        version: 9.39.4(jiti@2.7.0)
+      typescript:
+        specifier: ^5.4.5
+        version: 5.8.3
 
-  packages/telemetry: {}
+  packages/telemetry:
+    devDependencies:
+      '@derivo/eslint-config':
+        specifier: workspace:*
+        version: link:../../tooling/eslint-config
+      '@derivo/typescript-config':
+        specifier: workspace:*
+        version: link:../../tooling/typescript-config
+      eslint:
+        specifier: ^9.5.0
+        version: 9.39.4(jiti@2.7.0)
+      typescript:
+        specifier: ^5.4.5
+        version: 5.8.3
 
-  packages/template-engine: {}
+  packages/template-engine:
+    devDependencies:
+      '@derivo/eslint-config':
+        specifier: workspace:*
+        version: link:../../tooling/eslint-config
+      '@derivo/typescript-config':
+        specifier: workspace:*
+        version: link:../../tooling/typescript-config
+      eslint:
+        specifier: ^9.5.0
+        version: 9.39.4(jiti@2.7.0)
+      typescript:
+        specifier: ^5.4.5
+        version: 5.8.3
 
   packages/terminal-ui:
     dependencies:
@@ -355,10 +1232,49 @@ importers:
       ora:
         specifier: ^7.0.0
         version: 7.0.1
+    devDependencies:
+      '@derivo/eslint-config':
+        specifier: workspace:*
+        version: link:../../tooling/eslint-config
+      '@derivo/typescript-config':
+        specifier: workspace:*
+        version: link:../../tooling/typescript-config
+      eslint:
+        specifier: ^9.5.0
+        version: 9.39.4(jiti@2.7.0)
+      typescript:
+        specifier: ^5.4.5
+        version: 5.8.3
 
-  packages/validator-engine: {}
+  packages/validator-engine:
+    devDependencies:
+      '@derivo/eslint-config':
+        specifier: workspace:*
+        version: link:../../tooling/eslint-config
+      '@derivo/typescript-config':
+        specifier: workspace:*
+        version: link:../../tooling/typescript-config
+      eslint:
+        specifier: ^9.5.0
+        version: 9.39.4(jiti@2.7.0)
+      typescript:
+        specifier: ^5.4.5
+        version: 5.8.3
 
-  packages/workspace-health: {}
+  packages/workspace-health:
+    devDependencies:
+      '@derivo/eslint-config':
+        specifier: workspace:*
+        version: link:../../tooling/eslint-config
+      '@derivo/typescript-config':
+        specifier: workspace:*
+        version: link:../../tooling/typescript-config
+      eslint:
+        specifier: ^9.5.0
+        version: 9.39.4(jiti@2.7.0)
+      typescript:
+        specifier: ^5.4.5
+        version: 5.8.3
 
   tooling/eslint-config:
     dependencies:
@@ -1255,6 +2171,14 @@ packages:
   '@types/range-parser@1.2.7':
     resolution: {integrity: sha512-hKormJbkJqzQGhziax5PItDUTMAM9uE2XXQmM37dyd4hVM+5aVl7oVxMVUiVQn2oCQFN/LKCZdvSM0pFRqbSmQ==}
 
+  '@types/react-dom@19.2.3':
+    resolution: {integrity: sha512-jp2L/eY6fn+KgVVQAOqYItbF0VY/YApe5Mz2F0aykSO8gx31bYCZyvSeYxCHKvzHG5eZjc+zyaS5BrBWya2+kQ==}
+    peerDependencies:
+      '@types/react': ^19.2.0
+
+  '@types/react@19.2.17':
+    resolution: {integrity: sha512-MXfmqaVPEVgkBT/aY0aGCkRWWtByiYQXo3xdQ8r5RzuFrPiRn8Gar2tQdXSUQ2GKV3bkXckek89V8wQBY2Q/Aw==}
+
   '@types/retry@0.12.0':
     resolution: {integrity: sha512-wWKOClTTiizcZhXnPY4wikVAwmdYHp8q6DmC+EJUzAMsycb7HB32Kh9RN4+0gExjmPmZSAQjgURXIGATPegAvA==}
 
@@ -1611,6 +2535,9 @@ packages:
   cross-spawn@7.0.6:
     resolution: {integrity: sha512-uV2QOWP2nWzsy2aMp8aRibhi9dlzF5Hgh5SHaB9OiTGEyDTiJJyx0uy51QXdyWbtAHNua4XJzUKca3OzKUd3vA==}
     engines: {node: '>= 8'}
+
+  csstype@3.2.3:
+    resolution: {integrity: sha512-z1HGKcYy2xA8AGQfwrn0PAy+PB7X/GSj3UVJW9qKyn43xWa+gl5nXmU4qqLMRzWVLFC8KusUX8T/0kCiOYpAIQ==}
 
   dargs@8.1.0:
     resolution: {integrity: sha512-wAV9QHOsNbwnWdNW2FYvE1P56wtgSbM+3SZcdGiWQILwVjACCXDCI3Ai8QlCjMDB8YK5zySiXZYBiwGmNY3lnw==}
@@ -3899,6 +4826,14 @@ snapshots:
 
   '@types/range-parser@1.2.7': {}
 
+  '@types/react-dom@19.2.3(@types/react@19.2.17)':
+    dependencies:
+      '@types/react': 19.2.17
+
+  '@types/react@19.2.17':
+    dependencies:
+      csstype: 3.2.3
+
   '@types/retry@0.12.0': {}
 
   '@types/send@0.17.6':
@@ -4294,6 +5229,8 @@ snapshots:
       path-key: 3.1.1
       shebang-command: 2.0.0
       which: 2.0.2
+
+  csstype@3.2.3: {}
 
   dargs@8.1.0: {}
 

@@ -1,4 +1,3 @@
-import { motion } from 'motion/react';
 import { Logo } from './Logo';
 
 export function Footer() {

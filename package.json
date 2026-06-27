@@ -2,13 +2,13 @@
   "name": "derivo-workspace",
   "private": true,
   "scripts": {
-    "dev": "turbo run dev",
-    "build": "turbo run build",
-    "lint": "turbo run lint",
-    "typecheck": "turbo run typecheck",
-    "test": "turbo run test",
+    "dev": "npx pnpm --filter react-example dev",
+    "build": "npx pnpm --filter react-example build",
+    "lint": "npx pnpm --filter react-example lint",
+    "typecheck": "npx pnpm --filter react-example typecheck",
+    "test": "npx pnpm --filter react-example test",
     "format": "prettier --write \"**/*.{ts,tsx,md,json,js}\"",
-    "clean": "turbo run clean",
+    "clean": "npx pnpm --filter react-example clean",
     "prepare": "husky"
   },
   "devDependencies": {

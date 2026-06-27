@@ -1,6 +1,6 @@
 import { DashboardLayout } from '../../components/dashboard/layout/DashboardLayout';
 import { mockUser } from '../../mock/data';
-import { Zap, CreditCard, Download, ArrowUpRight } from 'lucide-react';
+import { Zap, CreditCard, ArrowUpRight } from 'lucide-react';
 import { motion } from 'motion/react';
 
 export function Billing() {

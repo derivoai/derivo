@@ -27,7 +27,6 @@ export function CLIDemo() {
   useEffect(() => {
     if (!isPlaying) return;
 
-    let timeoutId: NodeJS.Timeout;
     const terminalScript: { delay: number; action: () => void }[] = [
       {
         delay: 0,

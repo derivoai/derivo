@@ -1,7 +1,6 @@
 import { Link } from 'react-router-dom';
 import { AuthLayout } from '../../components/auth/AuthLayout';
-import { Github, Mail } from 'lucide-react';
-import { motion } from 'motion/react';
+import { Github } from 'lucide-react';
 
 export function Login() {
   return (

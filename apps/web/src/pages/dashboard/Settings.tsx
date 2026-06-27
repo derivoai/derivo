@@ -1,6 +1,6 @@
 import { DashboardLayout } from '../../components/dashboard/layout/DashboardLayout';
 import { mockUser } from '../../mock/data';
-import { User, Github, AlertTriangle } from 'lucide-react';
+import { Github } from 'lucide-react';
 
 export function Settings() {
   return (

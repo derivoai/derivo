@@ -1,6 +1,6 @@
 import { DashboardLayout } from '../../components/dashboard/layout/DashboardLayout';
 import { mockProjects } from '../../mock/data';
-import { Search, Plus, Filter, MoreVertical, ArrowRight } from 'lucide-react';
+import { Search, Plus, Filter, MoreVertical } from 'lucide-react';
 
 export function Projects() {
   return (

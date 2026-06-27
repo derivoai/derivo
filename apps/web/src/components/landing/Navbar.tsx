@@ -1,4 +1,4 @@
-import { useEffect, useState } from 'react';
+import { useState } from 'react';
 import { motion, useScroll, useMotionValueEvent } from 'motion/react';
 import { Logo } from './Logo';
 import { cn } from '../../lib/utils';
